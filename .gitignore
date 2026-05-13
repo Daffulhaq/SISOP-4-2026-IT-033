@@ -1,0 +1,6 @@
+soal_1/mnt/
+soal_2/fuse_mount/
+*.bin
+fuse_app
+client
+.DS_Store
