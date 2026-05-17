@@ -226,3 +226,17 @@ fuse_main(argc - 1, argv, &xmp_oper, NULL);
 ```
 
 ### Output
+Program akan menyalin seluruh file dan isinya dari direktori `amba_files` ke direktori `mnt`. Tetapi, direktori `mnt` mengandung satu file virtual `tujuan.txt`.
+
+<img width="1002" height="155" alt="Screenshot 2026-05-17 163126" src="https://github.com/user-attachments/assets/bcdf03f4-71c2-48b1-ae62-57c79599c1e2" />
+
+Isi file dengan nama yang sama harus berisi yang sama juga meski terletak di dalam direktori yang berbeda
+
+<img width="1451" height="549" alt="Screenshot 2026-05-17 163103" src="https://github.com/user-attachments/assets/6f46bdd5-8b95-4388-a2cb-22c52a0a2f37" />
+
+File virtual `tujuan.txt` akan menyimpan koordinat tujuan:
+
+<img width="1056" height="50" alt="Screenshot 2026-05-17 163137" src="https://github.com/user-attachments/assets/472149f6-2b9a-4b62-8e4e-62a6ee43a5a3" />
+
+### Kendala
+Tidak ada.
